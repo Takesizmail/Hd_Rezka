@@ -1,0 +1,13 @@
+.list-items  {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.list-items li + li {
+    margin-left: 50px;
+}
+.list-items li:nth-child(5n+1){
+    margin-left: 0;
+}

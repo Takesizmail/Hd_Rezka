@@ -1,12 +1,44 @@
 import React from 'react'
-import './content.css'
+import './main-content.css'
+import SearchPanel from "../search-panel";
+import {Switch, Route,Redirect} from 'react-router-dom';
+import {FilmPage, SerialPage, CartoonPage, AnimePage, AllItems, ItemDetailsPage} from '../pages'
 
-const Content = () =>{
+
+const MainContent = () =>{
 
     return (
         <div className='main-container'>
-           <h1>hello world</h1>
+            <div className='container-elements'>
+                <SearchPanel/>
+
+                <Switch>
+                    <Route  path='/all' component={AllItems} exact />
+                    <Route  path='/all/:id'
+                            render={() =>  <ItemDetailsPage/>}
+                            exact />
+
+                    <Route path='/films/' render ={ () => <FilmPage/>} exact />
+                    <Route path='/films/:id'
+                           render={() =>  <ItemDetailsPage />}
+                           exact
+                            />
+
+                    <Route path='/serial/' component={SerialPage} exact />
+                    <Route path='/serial/:id' render={() => <ItemDetailsPage />} exact />
+
+                    <Route path='/cartoon/' component={CartoonPage} exact />
+                    <Route path='/cartoon/:id' render={()=> <ItemDetailsPage />} exact />
+
+                    <Route path='/anime/' component={AnimePage} exact />
+                    <Route path='/anime/:id' render={()=>< ItemDetailsPage />} exact />
+
+                    <Route path='/item_detail' component={ItemDetailsPage} exact />
+                    <Redirect to='/all/'/>
+                </Switch>
+            </div>
+
         </div>
     )
 };
-export default Content
+export default MainContent

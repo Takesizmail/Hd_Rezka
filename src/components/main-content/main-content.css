@@ -1,3 +1,16 @@
 .main-container{
     background-color: #222222;
+   width: 100%;
+    padding-left: 300px;
+}
+.container-elements{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: bold;
+    margin-top: 80px;
+    color: white;
 }

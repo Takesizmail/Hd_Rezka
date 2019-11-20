@@ -1,12 +1,4 @@
-.list-items  {
-    padding-left: 0;
-   list-style: none;
-    display: flex;
 
-}
-.list-items li + li {
-    margin-left: 50px;
-}
 .list-item-li{
     display: flex;
     flex-direction: column;
@@ -14,6 +6,7 @@
 }
 .image-item{
    width: 150px;
+    height: 222px;
     position: relative;
 }
 
@@ -21,7 +14,6 @@
 .list-item-li  span{
     font-weight: bold;
     font-size: 20px;
-    text-align: center;
     margin-top: 15px;
     color: #ffffff;
     cursor: pointer;

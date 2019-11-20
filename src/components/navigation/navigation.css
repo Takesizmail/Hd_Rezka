@@ -1,0 +1,170 @@
+.main-navigation{
+    position: fixed;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-width: 220px;
+
+    color: #e8fff8;
+padding: 0 40px;
+
+
+}
+.linkili{
+    text-decoration: none;
+}
+.logo-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.tracker {
+    text-transform: uppercase;
+    color: #c1c1c1;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+.logo-container img{
+    height: 150px;
+    width: 150px;
+
+}
+
+.transition-item:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.nav{
+    margin-top: 45px;
+}
+.nav-items{
+    padding: 0;
+    list-style: none;
+
+
+}
+.nav-items li + li{
+    margin-top: 15px;
+}
+.nav-items li{
+
+
+}
+
+
+
+.something-text {
+    text-align: center;
+    margin-top: 70px;
+}
+.something-text p{
+    font-size: 12px;
+    border-top: 1px solid #c1c1c1;
+}
+.icon-telegram img{
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    width: 24px;
+    margin-right: 7px;
+}
+.icon-telegram {
+    position: relative;
+    padding: 12px 12px 12px 40px;
+    border-radius: 5px;
+    background-color: #0e9fcd;
+    vertical-align: middle;
+}
+
+.footer{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.footer a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #c1c1c1;
+
+}
+.footer a:hover {
+    color: #0e9fcd;
+}
+.footer span {
+    font-size: 14px;
+    color: #c1c1c1;
+}
+
+.nav-items-link{
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #e8fff8;
+}
+.nav-items-link:hover{
+    transition-duration: 0.3s;
+    color: #07bfd2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

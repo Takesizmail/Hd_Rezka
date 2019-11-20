@@ -1,2 +1,2 @@
-import Content from "./content";
-export default Content
+import MainContent from "./main-content";
+export default MainContent

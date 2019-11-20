@@ -1,10 +1,18 @@
 import React from 'react'
-import ListItems from "../list-items/list-items";
-
-const CartoonPage = () =>{
+import withHdRezkaServices from "../hoc";
+import ListItemsContainer from "../list-items-container/list-items-container";
+import {withRouter} from 'react-router-dom'
+const CartoonPage = ({services,history}) =>{
+   const text ='нові мультфільми';
     return (
-        <h1>Cartoon Page</h1>
+       <ListItemsContainer
+           getData={services.getCartoons}
+           downloadText={text}
+           onItemSelected = {(id)=>{
+               history.push(`/cartoon/${id}`)
+           }}
+       />
     )
 
 };
-export default CartoonPage
+export default withHdRezkaServices()( withRouter(CartoonPage))

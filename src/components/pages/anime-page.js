@@ -1,10 +1,18 @@
 import React from 'react'
-import ListItems from "../list-items/list-items";
+import ListItemsContainer from "../list-items-container/list-items-container";
+import withHdRezkaServices from "../hoc";
+import {withRouter} from 'react-router-dom'
+const AnimePage = ({services,history}) =>{
+const text ='нові аніме';
 
-const AnimePage = () =>{
     return (
-        <h1>Anime Page</h1>
+       <ListItemsContainer
+           getData={services.getAnime}
+           downloadText={text}
+            onItemSelected = {(id)=>{
+        history.push(`/anime/${id}`)
+    }}/>
     )
 
 };
-export default AnimePage
+export default  withHdRezkaServices()(withRouter(AnimePage))
