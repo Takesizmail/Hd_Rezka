@@ -1,0 +1,38 @@
+.list-items  {
+    padding-left: 0;
+   list-style: none;
+    display: flex;
+
+}
+.list-items li + li {
+    margin-left: 50px;
+}
+.list-item-li{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.image-item{
+   width: 150px;
+    position: relative;
+}
+
+
+.list-item-li  span{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.list-item-li span:hover{
+    color: #0e9fcd;
+
+}
+.list-item-li p {
+    color: #909090;
+    margin-top: 10px;
+    font-size: 12px;
+}
