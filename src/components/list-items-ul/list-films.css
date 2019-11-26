@@ -5,8 +5,8 @@
     flex-wrap: wrap;
 
 }
-.list-items li + li {
-    margin-left: 50px;
+.list-items li {
+    margin-right: 50px;
 }
 .list-items li:nth-child(6n+1){
     margin-left: 0;

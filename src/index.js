@@ -5,7 +5,7 @@ import {Provider} from 'react-redux';
 import ErrorBoundry from "./components/error-boundry";
 import {HdRezkaContextProvider} from "./components/hd-rezka-context";
 import store from "./store";
-import {BrowserRouter as Router} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom';
 import HdRezkaServices from "./services/hd-rezka-services";
 
 
