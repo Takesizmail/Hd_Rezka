@@ -3,11 +3,9 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 
 }
 .list-items li {
-    margin-right: 50px;
-}
-.list-items li:nth-child(6n+1){
-    margin-left: 0;
+    margin-right: 60px;
 }
