@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Hd_Rezka/static/css/main.5cb9bdeb.chunk.css",
+    "main.js": "/Hd_Rezka/static/js/main.5ed38403.chunk.js",
+    "main.js.map": "/Hd_Rezka/static/js/main.5ed38403.chunk.js.map",
+    "runtime-main.js": "/Hd_Rezka/static/js/runtime-main.50ef314d.js",
+    "runtime-main.js.map": "/Hd_Rezka/static/js/runtime-main.50ef314d.js.map",
+    "static/js/2.de22f665.chunk.js": "/Hd_Rezka/static/js/2.de22f665.chunk.js",
+    "static/js/2.de22f665.chunk.js.map": "/Hd_Rezka/static/js/2.de22f665.chunk.js.map",
+    "index.html": "/Hd_Rezka/index.html",
+    "precache-manifest.3aa1de4b20007dafe0ed9f92e9ca2f6c.js": "/Hd_Rezka/precache-manifest.3aa1de4b20007dafe0ed9f92e9ca2f6c.js",
+    "service-worker.js": "/Hd_Rezka/service-worker.js",
+    "static/css/main.5cb9bdeb.chunk.css.map": "/Hd_Rezka/static/css/main.5cb9bdeb.chunk.css.map",
+    "static/media/Sgdo_u2j.png": "/Hd_Rezka/static/media/Sgdo_u2j.585b1b43.png",
+    "static/media/icon.png": "/Hd_Rezka/static/media/icon.661fffda.png",
+    "static/media/img.png": "/Hd_Rezka/static/media/img.645a9daf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50ef314d.js",
+    "static/js/2.de22f665.chunk.js",
+    "static/css/main.5cb9bdeb.chunk.css",
+    "static/js/main.5ed38403.chunk.js"
+  ]
+}
